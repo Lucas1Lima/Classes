@@ -14,7 +14,7 @@ export class TclasseService {
   ) { }
 
   formulario: TClasse = new TClasse();
-  listar: TClasse[];
+  listarClasse: TClasse[] = [];
 
   atualizarLista() {
     this.obterClasses();
