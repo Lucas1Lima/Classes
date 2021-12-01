@@ -17,7 +17,7 @@
 
 .button-menu a {
 
-}}
+}
 
 .texto-titulo {
 
@@ -31,5 +31,12 @@
     font-size: 20px;
     margin-right: 10px;
     color: #191C4D;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.titulo2 {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #653D86;
+    font-weight: 500;
 }
