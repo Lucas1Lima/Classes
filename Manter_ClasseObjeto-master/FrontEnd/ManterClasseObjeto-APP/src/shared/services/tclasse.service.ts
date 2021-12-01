@@ -10,8 +10,7 @@ import { ClassMethod } from '@angular/compiler';
 export class TclasseService {
 
   constructor(public http: HttpClient) { }
-  //formulario: TClasse = new TClasse();
-  //listar: TClasse[];
+  formulario: TClasse = new TClasse();
 
   deletarClasse (id: number) {
     return this.http.delete(environment.EnderecoAPI + '' + id);
@@ -20,4 +19,5 @@ export class TclasseService {
   obterClasses() {
     return this.http.get(environment.EnderecoAPI + '');
   }
-/* pAPI + ;adicionarpostid:number (environment.EnderecoAPIid: number + ''atualizar()){}thisthis.http.http.get.get()enenvironment..EnderecoAPI.._isScalartotoPromise()).then.then()res => {}}thisthis.listar = res as TClasse[]];;;; + */
+  
+}

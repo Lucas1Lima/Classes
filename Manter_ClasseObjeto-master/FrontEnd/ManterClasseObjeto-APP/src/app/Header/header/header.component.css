@@ -1,33 +1,32 @@
 .header {
     display: flex;
     padding-left: 10px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     height: 60px;
+    justify-content: space-between;
 }
 
 .button-menu {
+    cursor: pointer ;
     margin-top: auto;
     margin-bottom: auto;
     height: 40px;
     color: white;
     background-color: #662382;
-    border: 1px solid red;
     width: 40px;
-}
-
-.button-menu a {
-
+    padding: 7px;
+    padding-left: 12px;
 }
 
 .texto-titulo {
-
+    width: 300px;
     height: 60px;
-    border: 1px solid green;
     margin-left: 30px;
     display: flex;
 }
 
 .titulo {
+
     font-size: 20px;
     margin-right: 10px;
     color: #191C4D;
@@ -39,4 +38,19 @@
     font-size: 15px;
     color: #653D86;
     font-weight: 500;
+}
+
+
+
+.button-sair {
+color: white;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
