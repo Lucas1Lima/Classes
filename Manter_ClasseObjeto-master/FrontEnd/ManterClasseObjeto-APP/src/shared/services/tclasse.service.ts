@@ -9,6 +9,7 @@ import { environment} from 'src/environments/environment.prod';
 })
 export class TclasseService {
 
+<<<<<<< HEAD
   constructor(
     public http: HttpClient
   ) { }
@@ -19,6 +20,10 @@ export class TclasseService {
   atualizarLista() {
     this.obterClasses();
   }
+=======
+  constructor(public http: HttpClient) { }
+  formulario: TClasse = new TClasse();
+>>>>>>> 1a6fbfdfe0003d4b3a3d851d3c7cad2b413b0f96
 
   deletarClasse (id: number) {
     return this.http.delete(environment.EnderecoAPI + '/TClasseLogs/' + id);
@@ -31,4 +36,8 @@ export class TclasseService {
   editarClasse(id: number) {
     return this.http.get(environment.EnderecoAPI + '/TClasseLogs/' + id)
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 1a6fbfdfe0003d4b3a3d851d3c7cad2b413b0f96
 }
