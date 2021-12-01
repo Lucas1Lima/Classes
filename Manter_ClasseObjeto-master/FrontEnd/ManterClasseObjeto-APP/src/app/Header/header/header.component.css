@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    padding-left: 10px;
+    border: 1px solid black;
+    height: 60px;
+}
+
+.button-menu {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+    color: white;
+    background-color: #662382;
+    border: 1px solid red;
+    width: 40px;
+}
+
+.button-menu a {
+
+}}
+
+.texto-titulo {
+
+    height: 60px;
+    border: 1px solid green;
+    margin-left: 30px;
+    display: flex;
+}
+
+.titulo {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #191C4D;
+    font-weight: 700;
+}
