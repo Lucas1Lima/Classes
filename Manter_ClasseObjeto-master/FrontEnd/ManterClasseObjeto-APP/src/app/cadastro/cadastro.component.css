@@ -1,7 +1,53 @@
 .titulo {
   border: 1px solid black;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 10px;
+  width: 102%;
   color: #191C4D;
   font-weight: 500;
+}
+
+p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+.inte {
+  font-size: 15px;
+}
+
+.container {
+  margin-top: 30px;
+  color: #662382;
+}
+
+
+table {
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.acao {
+  font-size: 7px;
+  margin-right: 2px;
+}
+
+.col {
+  padding: 8px;
+  border-left: 1px solid black;
+}
+
+.col-1 {
+  padding: 8px;
+  background-color: #551D6D;
+  border-left: 1px solid black;
+}
+
+.col-2 {
+  padding: 8px;
 }
